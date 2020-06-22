@@ -1,0 +1,6 @@
+/Users/josevargas/dev/Hazel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/josevargas/dev/Hazel/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/josevargas/dev/Hazel/cmake-build-debug/CMakeFiles/Hazel.dir
+/Users/josevargas/dev/Hazel/cmake-build-debug/SandBox/CMakeFiles/rebuild_cache.dir
+/Users/josevargas/dev/Hazel/cmake-build-debug/SandBox/CMakeFiles/edit_cache.dir
+/Users/josevargas/dev/Hazel/cmake-build-debug/SandBox/CMakeFiles/SandBox.dir
