@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_FLAGS = -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC   -std=gnu++1z
 
-CXX_DEFINES = -DHazel_EXPORTS
+CXX_DEFINES = -DHAZEL_BUILD_DLL -DHazel_EXPORTS
 
 CXX_INCLUDES = -I/Users/josevargas/dev/hazel-project/Hazel/src 
 

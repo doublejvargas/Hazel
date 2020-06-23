@@ -4,12 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/josevargas/dev/hazel-project/SandBox/src/Application.cpp" "/Users/josevargas/dev/hazel-project/bin/Debug-x64/SandBox/CMakeFiles/SandBox.dir/src/Application.cpp.o"
+  "/Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp" "/Users/josevargas/dev/hazel-project/bin/Debug-x64/SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "HAZEL_BUILD_DLL"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../../SandBox/../Hazel/src"
   "../../Hazel/src"
   )
 

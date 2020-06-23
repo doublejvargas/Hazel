@@ -3,7 +3,6 @@ project(Hazel)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_subdirectory(Hazel)
 add_subdirectory(SandBox)
-
-add_library(Hazel SHARED src/Test.h src/Test.cpp)
 

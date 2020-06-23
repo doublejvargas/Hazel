@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Test.cpp
-Test.h
-/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Test.h
-stdio.h
--
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp
+Application.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.h
 
-/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Test.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.h
+Core.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Core.h
+
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Core.h
 

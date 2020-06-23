@@ -57,27 +57,27 @@ include Hazel/CMakeFiles/Hazel.dir/progress.make
 # Include the compile flags for this target's objects.
 include Hazel/CMakeFiles/Hazel.dir/flags.make
 
-Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.o: Hazel/CMakeFiles/Hazel.dir/flags.make
-Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.o: ../../Hazel/src/Hazel/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/bin/Debug-x64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.o"
-	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.o -c /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Test.cpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: Hazel/CMakeFiles/Hazel.dir/flags.make
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../../Hazel/src/Hazel/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/bin/Debug-x64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
+	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o -c /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp
 
-Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.i"
-	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Test.cpp > CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.i
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i"
+	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp > CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
 
-Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.s"
-	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Test.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.s
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s"
+	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
 
 # Object files for target Hazel
 Hazel_OBJECTS = \
-"CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.o"
+"CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
 
 # External object files for target Hazel
 Hazel_EXTERNAL_OBJECTS =
 
-Hazel/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.o
+Hazel/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
 Hazel/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/build.make
 Hazel/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/josevargas/dev/hazel-project/bin/Debug-x64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libHazel.dylib"

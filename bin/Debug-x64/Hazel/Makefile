@@ -125,32 +125,32 @@ Hazel/fast:
 	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64 && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/build
 .PHONY : Hazel/fast
 
-src/Hazel/Test.o: src/Hazel/Test.cpp.o
+src/Hazel/Application.o: src/Hazel/Application.cpp.o
 
-.PHONY : src/Hazel/Test.o
+.PHONY : src/Hazel/Application.o
 
 # target to build an object file
-src/Hazel/Test.cpp.o:
-	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64 && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.o
-.PHONY : src/Hazel/Test.cpp.o
+src/Hazel/Application.cpp.o:
+	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64 && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
+.PHONY : src/Hazel/Application.cpp.o
 
-src/Hazel/Test.i: src/Hazel/Test.cpp.i
+src/Hazel/Application.i: src/Hazel/Application.cpp.i
 
-.PHONY : src/Hazel/Test.i
+.PHONY : src/Hazel/Application.i
 
 # target to preprocess a source file
-src/Hazel/Test.cpp.i:
-	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64 && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.i
-.PHONY : src/Hazel/Test.cpp.i
+src/Hazel/Application.cpp.i:
+	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64 && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
+.PHONY : src/Hazel/Application.cpp.i
 
-src/Hazel/Test.s: src/Hazel/Test.cpp.s
+src/Hazel/Application.s: src/Hazel/Application.cpp.s
 
-.PHONY : src/Hazel/Test.s
+.PHONY : src/Hazel/Application.s
 
 # target to generate assembly for a file
-src/Hazel/Test.cpp.s:
-	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64 && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Test.cpp.s
-.PHONY : src/Hazel/Test.cpp.s
+src/Hazel/Application.cpp.s:
+	cd /Users/josevargas/dev/hazel-project/bin/Debug-x64 && $(MAKE) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
+.PHONY : src/Hazel/Application.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Hazel"
-	@echo "... src/Hazel/Test.o"
-	@echo "... src/Hazel/Test.i"
-	@echo "... src/Hazel/Test.s"
+	@echo "... src/Hazel/Application.o"
+	@echo "... src/Hazel/Application.i"
+	@echo "... src/Hazel/Application.s"
 .PHONY : help
 
 

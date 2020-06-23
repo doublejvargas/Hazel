@@ -125,32 +125,32 @@ SandBox/fast:
 	cd /Users/josevargas/dev/hazel-project/bin/Release-x64 && $(MAKE) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/build
 .PHONY : SandBox/fast
 
-src/Application.o: src/Application.cpp.o
+src/SandBoxApp.o: src/SandBoxApp.cpp.o
 
-.PHONY : src/Application.o
+.PHONY : src/SandBoxApp.o
 
 # target to build an object file
-src/Application.cpp.o:
-	cd /Users/josevargas/dev/hazel-project/bin/Release-x64 && $(MAKE) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/src/Application.cpp.o
-.PHONY : src/Application.cpp.o
+src/SandBoxApp.cpp.o:
+	cd /Users/josevargas/dev/hazel-project/bin/Release-x64 && $(MAKE) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o
+.PHONY : src/SandBoxApp.cpp.o
 
-src/Application.i: src/Application.cpp.i
+src/SandBoxApp.i: src/SandBoxApp.cpp.i
 
-.PHONY : src/Application.i
+.PHONY : src/SandBoxApp.i
 
 # target to preprocess a source file
-src/Application.cpp.i:
-	cd /Users/josevargas/dev/hazel-project/bin/Release-x64 && $(MAKE) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/src/Application.cpp.i
-.PHONY : src/Application.cpp.i
+src/SandBoxApp.cpp.i:
+	cd /Users/josevargas/dev/hazel-project/bin/Release-x64 && $(MAKE) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.i
+.PHONY : src/SandBoxApp.cpp.i
 
-src/Application.s: src/Application.cpp.s
+src/SandBoxApp.s: src/SandBoxApp.cpp.s
 
-.PHONY : src/Application.s
+.PHONY : src/SandBoxApp.s
 
 # target to generate assembly for a file
-src/Application.cpp.s:
-	cd /Users/josevargas/dev/hazel-project/bin/Release-x64 && $(MAKE) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/src/Application.cpp.s
-.PHONY : src/Application.cpp.s
+src/SandBoxApp.cpp.s:
+	cd /Users/josevargas/dev/hazel-project/bin/Release-x64 && $(MAKE) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.s
+.PHONY : src/SandBoxApp.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SandBox"
-	@echo "... src/Application.o"
-	@echo "... src/Application.i"
-	@echo "... src/Application.s"
+	@echo "... src/SandBoxApp.o"
+	@echo "... src/SandBoxApp.i"
+	@echo "... src/SandBoxApp.s"
 .PHONY : help
 
 

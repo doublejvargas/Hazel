@@ -1,12 +1,5 @@
-cmake_minimum_required(VERSION 3.16)
-project(SandBox)
+add_executable(SandBox src/SandBoxApp.cpp)
 
-set(CMAKE_CXX_STANDARD 17)
+target_include_directories(SandBox PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/../Hazel/src")
 
-add_executable(SandBox src/Application.cpp)
-
-find_library(HAZEL_LIB
-            NAMES Hazel
-            PATHS src/)
-
-target_link_libraries(${PROJECT_NAME} PUBLIC ${HAZEL_LIB})
+target_link_libraries(SandBox PRIVATE Hazel)

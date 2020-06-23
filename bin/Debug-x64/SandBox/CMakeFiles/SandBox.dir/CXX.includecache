@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-../../Hazel/src/hazel/Test.h
+../../Hazel/src/Hazel.h
+Hazel/Application.h
+../../Hazel/src/Hazel/Application.h
+iostream
+-
+Hazel/EntryPoint.h
+../../Hazel/src/Hazel/EntryPoint.h
 
-/Users/josevargas/dev/hazel-project/SandBox/src/Application.cpp
-hazel/Test.h
+../../Hazel/src/Hazel/Application.h
+Core.h
+../../Hazel/src/Hazel/Core.h
+
+../../Hazel/src/Hazel/Core.h
+
+../../Hazel/src/Hazel/EntryPoint.h
+
+/Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp
+Hazel.h
 -
 
