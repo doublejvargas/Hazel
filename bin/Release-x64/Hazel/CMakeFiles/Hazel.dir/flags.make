@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacO
 
 CXX_DEFINES = -DHAZEL_BUILD_DLL -DHazel_EXPORTS
 
-CXX_INCLUDES = -I/Users/josevargas/dev/hazel-project/Hazel/src 
+CXX_INCLUDES = -I/Users/josevargas/dev/hazel-project/Hazel/src -I/Users/josevargas/dev/hazel-project/Hazel/vendor/spdlog/include 
 

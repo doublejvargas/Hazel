@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
+  "CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
   "libHazel.dylib"
   "libHazel.pdb"
 )

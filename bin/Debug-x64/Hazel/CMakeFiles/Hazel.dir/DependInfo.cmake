@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp" "/Users/josevargas/dev/hazel-project/bin/Debug-x64/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
+  "/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp" "/Users/josevargas/dev/hazel-project/bin/Debug-x64/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -17,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../Hazel/src"
+  "../../Hazel/vendor/spdlog/include"
   )
 
 # Targets to which this target links.

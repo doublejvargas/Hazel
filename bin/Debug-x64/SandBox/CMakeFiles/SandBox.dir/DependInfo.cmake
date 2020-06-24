@@ -15,8 +15,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../../SandBox/../Hazel/src"
   "../../Hazel/src"
+  "../../Hazel/vendor/spdlog/include"
   )
 
 # Targets to which this target links.

@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add option="-DHAZEL_BUILD_DLL"/>
 					<Add directory="/Users/josevargas/dev/hazel-project/Hazel/src"/>
+					<Add directory="/Users/josevargas/dev/hazel-project/Hazel/vendor/spdlog/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -69,6 +70,7 @@
 				<Compiler>
 					<Add option="-DHAZEL_BUILD_DLL"/>
 					<Add directory="/Users/josevargas/dev/hazel-project/Hazel/src"/>
+					<Add directory="/Users/josevargas/dev/hazel-project/Hazel/vendor/spdlog/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -91,8 +93,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DHAZEL_BUILD_DLL"/>
-					<Add directory="/Users/josevargas/dev/hazel-project/SandBox/../Hazel/src"/>
 					<Add directory="/Users/josevargas/dev/hazel-project/Hazel/src"/>
+					<Add directory="/Users/josevargas/dev/hazel-project/Hazel/vendor/spdlog/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -115,8 +117,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DHAZEL_BUILD_DLL"/>
-					<Add directory="/Users/josevargas/dev/hazel-project/SandBox/../Hazel/src"/>
 					<Add directory="/Users/josevargas/dev/hazel-project/Hazel/src"/>
+					<Add directory="/Users/josevargas/dev/hazel-project/Hazel/vendor/spdlog/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -145,6 +147,12 @@
 			<Option target="Hazel"/>
 		</Unit>
 		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/EntryPoint.h">
+			<Option target="Hazel"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp">
+			<Option target="Hazel"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h">
 			<Option target="Hazel"/>
 		</Unit>
 		<Unit filename="/Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp">
