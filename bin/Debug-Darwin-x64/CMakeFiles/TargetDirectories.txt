@@ -1,0 +1,8 @@
+/Users/josevargas/dev/hazel-project/bin/Debug-Darwin-x64/CMakeFiles/rebuild_cache.dir
+/Users/josevargas/dev/hazel-project/bin/Debug-Darwin-x64/CMakeFiles/edit_cache.dir
+/Users/josevargas/dev/hazel-project/bin/Debug-Darwin-x64/Hazel/CMakeFiles/rebuild_cache.dir
+/Users/josevargas/dev/hazel-project/bin/Debug-Darwin-x64/Hazel/CMakeFiles/edit_cache.dir
+/Users/josevargas/dev/hazel-project/bin/Debug-Darwin-x64/Hazel/CMakeFiles/Hazel.dir
+/Users/josevargas/dev/hazel-project/bin/Debug-Darwin-x64/SandBox/CMakeFiles/rebuild_cache.dir
+/Users/josevargas/dev/hazel-project/bin/Debug-Darwin-x64/SandBox/CMakeFiles/edit_cache.dir
+/Users/josevargas/dev/hazel-project/bin/Debug-Darwin-x64/SandBox/CMakeFiles/SandBox.dir
