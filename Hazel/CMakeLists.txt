@@ -9,6 +9,11 @@ add_library(
         src/Hazel/Log.cpp
 )
 
+set_target_properties(Hazel
+        PROPERTIES
+        COMPILE_OPTIONS "-m64"
+        LINK_FLAGS "-m64")
+
 # ------include directories-------------------------------------------------
 # Since I'm including these target directories PUBLICLY, I need only include them here as
 #   everything that is linked against this target (and I think that everything in the project will be)

@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -dynamiclib -Wl,-headerpad_max_install_names  -o libHazel.dylib -install_name @rpath/libHazel.dylib CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o 
