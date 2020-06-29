@@ -1,0 +1,8 @@
+/Users/josevargas/dev/hazel-project/build/CMakeFiles/rebuild_cache.dir
+/Users/josevargas/dev/hazel-project/build/CMakeFiles/edit_cache.dir
+/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/rebuild_cache.dir
+/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/edit_cache.dir
+/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir
+/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/rebuild_cache.dir
+/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/edit_cache.dir
+/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir

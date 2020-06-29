@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -m64 CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o  -o SandBox  -Wl,-rpath,/Users/josevargas/dev/hazel-project/bin/Release-Darwin-x64/Hazel ../Hazel/libHazel.dylib 
