@@ -7,7 +7,10 @@ add_library(
         src/Hazel/EntryPoint.h
         src/Hazel/Log.h
         src/Hazel/Log.cpp
-)
+        src/Hazel/Events/Event.h
+        src/Hazel/Events/KeyEvent.h
+        src/Hazel/Events/MouseEvent.h
+        src/Hazel/Events/ApplicationEvent.h)
 
 set_target_properties(Hazel
         PROPERTIES
@@ -23,4 +26,9 @@ target_include_directories(Hazel PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
 target_include_directories(Hazel PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/vendor/spdlog/include")
 
 
-target_compile_definitions(Hazel PUBLIC HAZEL_BUILD_DLL)
+if(${CMAKE_HOST_SYSTEM_NAME} STREQUAL "Darwin")
+    target_compile_definitions(Hazel PUBLIC HZ_PLATFORM_MAC)
+endif()
+
+target_compile_definitions(Hazel PUBLIC
+        HAZEL_BUILD_DLL )

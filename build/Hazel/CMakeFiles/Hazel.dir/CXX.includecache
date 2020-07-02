@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../Hazel/src/Hazel/Core.h
+
 ../Hazel/vendor/spdlog/include/spdlog/cfg/log_levels.h
 spdlog/common.h
 -
@@ -322,6 +324,12 @@ fmt/format.h
 format-inl.h
 ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
 
+../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
+ostream
+-
+format.h
+../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+
 ../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
 spdlog/fmt/bundled/core.h
 -
@@ -330,6 +338,12 @@ spdlog/fmt/bundled/format.h
 fmt/core.h
 -
 fmt/format.h
+-
+
+../Hazel/vendor/spdlog/include/spdlog/fmt/ostr.h
+spdlog/fmt/bundled/ostream.h
+-
+fmt/ostream.h
 -
 
 ../Hazel/vendor/spdlog/include/spdlog/formatter.h
@@ -464,24 +478,6 @@ spdlog/formatter.h
 sink-inl.h
 ../Hazel/vendor/spdlog/include/spdlog/sinks/sink-inl.h
 
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
-spdlog/sinks/stdout_color_sinks.h
--
-spdlog/logger.h
--
-spdlog/common.h
--
-
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h
-spdlog/sinks/wincolor_sink.h
--
-spdlog/sinks/ansicolor_sink.h
--
-spdlog/details/synchronous_factory.h
--
-stdout_color_sinks-inl.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
-
 ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 spdlog/sinks/wincolor_sink.h
 -
@@ -551,22 +547,38 @@ spdlog-inl.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp
 Application.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.h
+Events/ApplicationEvent.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/ApplicationEvent.h
+Log.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
 
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.h
 Core.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Core.h
+Events/Event.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/Event.h
 
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Core.h
 
-/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp
-Log.h
-/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
-spdlog/sinks/stdout_color_sinks.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/ApplicationEvent.h
+Event.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/Event.h
+sstream
+-
+
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/Event.h
+Hazel/Core.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/Hazel/Core.h
+string
+-
+functional
 -
 
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
 Core.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Core.h
 spdlog/spdlog.h
--
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/spdlog/spdlog.h
+spdlog/fmt/ostr.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/spdlog/fmt/ostr.h
 

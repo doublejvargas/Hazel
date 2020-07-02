@@ -6,6 +6,7 @@ SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o
  ../Hazel/src/Hazel/Application.h
  ../Hazel/src/Hazel/Core.h
  ../Hazel/src/Hazel/EntryPoint.h
+ ../Hazel/src/Hazel/Events/Event.h
  ../Hazel/src/Hazel/Log.h
  ../Hazel/vendor/spdlog/include/spdlog/cfg/log_levels.h
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
@@ -31,7 +32,9 @@ SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
  ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+ ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
  ../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
+ ../Hazel/vendor/spdlog/include/spdlog/fmt/ostr.h
  ../Hazel/vendor/spdlog/include/spdlog/formatter.h
  ../Hazel/vendor/spdlog/include/spdlog/logger-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/logger.h
