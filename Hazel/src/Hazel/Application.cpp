@@ -1,3 +1,4 @@
+//#include "hzpch.h"        // Needs not be included because cmake automatically does this.
 #include "Application.h"
 
 #include "Events/ApplicationEvent.h"

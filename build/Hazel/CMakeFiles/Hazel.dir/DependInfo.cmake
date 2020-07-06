@@ -4,8 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.cxx" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch"
+  "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch"
   "/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
+  "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
   "/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
+  "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -8,3 +8,9 @@ CXX_DEFINES = -DHAZEL_BUILD_DLL -DHZ_PLATFORM_MAC -DHazel_EXPORTS
 
 CXX_INCLUDES = -I/Users/josevargas/dev/hazel-project/Hazel/src -I/Users/josevargas/dev/hazel-project/Hazel/vendor/spdlog/include 
 
+# PCH options: Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch_OPTIONS = -Xclang;-emit-pch;-Xclang;-include;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+
+# PCH options: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o_OPTIONS = -Xclang;-include-pch;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+
+# PCH options: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o_OPTIONS = -Xclang;-include-pch;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+

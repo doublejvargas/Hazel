@@ -145,6 +145,21 @@ SandBox/fast:
 	cd /Users/josevargas/dev/hazel-project/build && $(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/build
 .PHONY : SandBox/fast
 
+# target to build an object file
+cmake_pch.hxx.pch:
+	cd /Users/josevargas/dev/hazel-project/build && $(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch
+.PHONY : cmake_pch.hxx.pch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	cd /Users/josevargas/dev/hazel-project/build && $(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	cd /Users/josevargas/dev/hazel-project/build && $(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 src/SandBoxApp.o: src/SandBoxApp.cpp.o
 
 .PHONY : src/SandBoxApp.o
@@ -181,6 +196,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SandBox"
+	@echo "... cmake_pch.hxx.pch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
 	@echo "... src/SandBoxApp.o"
 	@echo "... src/SandBoxApp.i"
 	@echo "... src/SandBoxApp.s"

@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx" "/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch"
+  "/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx" "/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch"
   "/Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp" "/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o"
+  "/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx" "/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

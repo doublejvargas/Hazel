@@ -8,3 +8,7 @@ CXX_DEFINES = -DHAZEL_BUILD_DLL -DHZ_PLATFORM_MAC
 
 CXX_INCLUDES = -I/Users/josevargas/dev/hazel-project/Hazel/src -I/Users/josevargas/dev/hazel-project/Hazel/vendor/spdlog/include 
 
+# PCH options: SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch_OPTIONS = -Xclang;-emit-pch;-Xclang;-include;-Xclang;/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx
+
+# PCH options: SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o_OPTIONS = -Xclang;-include-pch;-Xclang;/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx
+

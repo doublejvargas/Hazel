@@ -145,6 +145,21 @@ Hazel/fast:
 	cd /Users/josevargas/dev/hazel-project/build && $(MAKE) $(MAKESILENT) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/build
 .PHONY : Hazel/fast
 
+# target to build an object file
+cmake_pch.hxx.pch:
+	cd /Users/josevargas/dev/hazel-project/build && $(MAKE) $(MAKESILENT) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch
+.PHONY : cmake_pch.hxx.pch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	cd /Users/josevargas/dev/hazel-project/build && $(MAKE) $(MAKESILENT) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	cd /Users/josevargas/dev/hazel-project/build && $(MAKE) $(MAKESILENT) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 src/Hazel/Application.o: src/Hazel/Application.cpp.o
 
 .PHONY : src/Hazel/Application.o
@@ -208,6 +223,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Hazel"
+	@echo "... cmake_pch.hxx.pch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
 	@echo "... src/Hazel/Application.o"
 	@echo "... src/Hazel/Application.i"
 	@echo "... src/Hazel/Application.s"

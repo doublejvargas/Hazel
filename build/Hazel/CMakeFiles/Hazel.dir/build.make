@@ -77,31 +77,49 @@ include Hazel/CMakeFiles/Hazel.dir/progress.make
 # Include the compile flags for this target's objects.
 include Hazel/CMakeFiles/Hazel.dir/flags.make
 
+Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch: Hazel/CMakeFiles/Hazel.dir/flags.make
+Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch: Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.cxx
+Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch: Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch"
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -emit-pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -o CMakeFiles/Hazel.dir/cmake_pch.hxx.pch -c /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.cxx
+
+Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel.dir/cmake_pch.hxx.i"
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -emit-pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -E /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.cxx > CMakeFiles/Hazel.dir/cmake_pch.hxx.i
+
+Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel.dir/cmake_pch.hxx.s"
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -emit-pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -S /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.cxx -o CMakeFiles/Hazel.dir/cmake_pch.hxx.s
+
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: Hazel/CMakeFiles/Hazel.dir/flags.make
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
-	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o -c /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o -c /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i"
-	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp > CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -E /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp > CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.i
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s"
-	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -S /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.s
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: Hazel/CMakeFiles/Hazel.dir/flags.make
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: ../Hazel/src/Hazel/Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
-	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o -c /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o -c /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i"
-	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp > CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -E /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp > CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.i
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s"
-	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
+	cd /Users/josevargas/dev/hazel-project/build/Hazel && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx -S /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp -o CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.s
 
 # Object files for target Hazel
 Hazel_OBJECTS = \
@@ -111,11 +129,12 @@ Hazel_OBJECTS = \
 # External object files for target Hazel
 Hazel_EXTERNAL_OBJECTS =
 
+bin/Debug-Darwin-x64/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch
 bin/Debug-Darwin-x64/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
 bin/Debug-Darwin-x64/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o
 bin/Debug-Darwin-x64/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/build.make
 bin/Debug-Darwin-x64/libHazel.dylib: Hazel/CMakeFiles/Hazel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../bin/Debug-Darwin-x64/libHazel.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../bin/Debug-Darwin-x64/libHazel.dylib"
 	cd /Users/josevargas/dev/hazel-project/build/Hazel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hazel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

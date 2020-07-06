@@ -1,3 +1,4 @@
+//#include "hzpch.h"        // Needs not be included because cmake automatically does this.
 #include "Log.h"
 #include <spdlog/sinks/stdout_color_sinks.h>
 

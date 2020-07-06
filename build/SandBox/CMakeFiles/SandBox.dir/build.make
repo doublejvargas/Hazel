@@ -77,18 +77,34 @@ include SandBox/CMakeFiles/SandBox.dir/progress.make
 # Include the compile flags for this target's objects.
 include SandBox/CMakeFiles/SandBox.dir/flags.make
 
+SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch: SandBox/CMakeFiles/SandBox.dir/flags.make
+SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch: SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx
+SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch: SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch"
+	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -emit-pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx -o CMakeFiles/SandBox.dir/cmake_pch.hxx.pch -c /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx
+
+SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SandBox.dir/cmake_pch.hxx.i"
+	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -emit-pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx -E /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx > CMakeFiles/SandBox.dir/cmake_pch.hxx.i
+
+SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SandBox.dir/cmake_pch.hxx.s"
+	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -emit-pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx -S /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx -o CMakeFiles/SandBox.dir/cmake_pch.hxx.s
+
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: SandBox/CMakeFiles/SandBox.dir/flags.make
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../SandBox/src/SandBoxApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o"
-	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o -c /Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp
+SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx
+SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o"
+	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx -o CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o -c /Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp
 
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.i"
-	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp > CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.i
+	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx -E /Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp > CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.i
 
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.s"
-	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp -o CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.s
+	cd /Users/josevargas/dev/hazel-project/build/SandBox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Xclang -include-pch -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx -S /Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp -o CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.s
 
 # Object files for target SandBox
 SandBox_OBJECTS = \
@@ -97,11 +113,12 @@ SandBox_OBJECTS = \
 # External object files for target SandBox
 SandBox_EXTERNAL_OBJECTS =
 
+bin/Debug-Darwin-x64/SandBox: SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.pch
 bin/Debug-Darwin-x64/SandBox: SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o
 bin/Debug-Darwin-x64/SandBox: SandBox/CMakeFiles/SandBox.dir/build.make
 bin/Debug-Darwin-x64/SandBox: bin/Debug-Darwin-x64/libHazel.dylib
 bin/Debug-Darwin-x64/SandBox: SandBox/CMakeFiles/SandBox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/Debug-Darwin-x64/SandBox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/Debug-Darwin-x64/SandBox"
 	cd /Users/josevargas/dev/hazel-project/build/SandBox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SandBox.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

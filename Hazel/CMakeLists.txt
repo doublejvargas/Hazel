@@ -10,7 +10,9 @@ add_library(
         src/Hazel/Events/Event.h
         src/Hazel/Events/KeyEvent.h
         src/Hazel/Events/MouseEvent.h
-        src/Hazel/Events/ApplicationEvent.h)
+        src/Hazel/Events/ApplicationEvent.h
+        src/hzpch.h
+        )
 
 set_target_properties(Hazel
         PROPERTIES
@@ -22,10 +24,26 @@ set_target_properties(Hazel
 #   everything that is linked against this target (and I think that everything in the project will be)
 #   will have access to it as well.
 # Question: Should I make these includes private?
+#------include directories-------------------------------------------------
 target_include_directories(Hazel PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
 target_include_directories(Hazel PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/vendor/spdlog/include")
 
 
+#------Pre-compiled headers-------------------------------------------------
+target_precompile_headers(Hazel
+        PUBLIC
+            <iostream>
+            <memory>
+            <utility>
+            <algorithm>
+            <functional>
+            <string>
+            <sstream>
+            <vector>
+            <unordered_set>
+            <unordered_map>)
+
+#------Preprocessor Definitions-------------------------------------------------
 if(${CMAKE_HOST_SYSTEM_NAME} STREQUAL "Darwin")
     target_compile_definitions(Hazel PUBLIC HZ_PLATFORM_MAC)
 endif()

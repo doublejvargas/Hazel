@@ -27,10 +27,6 @@ Events/Event.h
 ../Hazel/src/Hazel/Events/Event.h
 Hazel/Core.h
 ../Hazel/src/Hazel/Events/Hazel/Core.h
-string
--
-functional
--
 
 ../Hazel/src/Hazel/Log.h
 Core.h
@@ -579,4 +575,28 @@ spdlog-inl.h
 /Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp
 Hazel.h
 -
+
+/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx
+iostream
+-
+memory
+-
+utility
+-
+algorithm
+-
+functional
+-
+string
+-
+sstream
+-
+vector
+-
+unordered_set
+-
+unordered_map
+-
+
+/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx
 

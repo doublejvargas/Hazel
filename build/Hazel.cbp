@@ -147,7 +147,22 @@
 		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h">
 			<Option target="Hazel"/>
 		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/hzpch.h">
+			<Option target="Hazel"/>
+		</Unit>
 		<Unit filename="/Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp">
+			<Option target="SandBox"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx">
+			<Option target="Hazel"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.cxx">
+			<Option target="Hazel"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx">
+			<Option target="SandBox"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx">
 			<Option target="SandBox"/>
 		</Unit>
 		<Unit filename="/Users/josevargas/dev/hazel-project/CMakeLists.txt">

@@ -478,6 +478,24 @@ spdlog/formatter.h
 sink-inl.h
 ../Hazel/vendor/spdlog/include/spdlog/sinks/sink-inl.h
 
+../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+spdlog/sinks/stdout_color_sinks.h
+-
+spdlog/logger.h
+-
+spdlog/common.h
+-
+
+../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h
+spdlog/sinks/wincolor_sink.h
+-
+spdlog/sinks/ansicolor_sink.h
+-
+spdlog/details/synchronous_factory.h
+-
+stdout_color_sinks-inl.h
+../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+
 ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 spdlog/sinks/wincolor_sink.h
 -
@@ -563,15 +581,15 @@ Events/Event.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/ApplicationEvent.h
 Event.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/Event.h
-sstream
--
 
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/Event.h
 Hazel/Core.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/Hazel/Core.h
-string
--
-functional
+
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp
+Log.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
+spdlog/sinks/stdout_color_sinks.h
 -
 
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
@@ -581,4 +599,28 @@ spdlog/spdlog.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/spdlog/spdlog.h
 spdlog/fmt/ostr.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/spdlog/fmt/ostr.h
+
+/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+iostream
+-
+memory
+-
+utility
+-
+algorithm
+-
+functional
+-
+string
+-
+sstream
+-
+vector
+-
+unordered_set
+-
+unordered_map
+-
+
+/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.cxx
 
