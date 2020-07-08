@@ -12,4 +12,5 @@
 #include <vector>
 #include <unordered_set>
 #include <unordered_map>
+#include "/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h"
 #endif // __cplusplus

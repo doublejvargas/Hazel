@@ -14,11 +14,17 @@ Hazel/Log.h
 Hazel/EntryPoint.h
 ../Hazel/src/Hazel/EntryPoint.h
 
+../Hazel/src/Hazel/AbstractWindow.h
+hzpch.h
+../Hazel/src/Hazel/hzpch.h
+Hazel/Core.h
+../Hazel/src/Hazel/Hazel/Core.h
+Hazel/Events/Event.h
+../Hazel/src/Hazel/Hazel/Events/Event.h
+
 ../Hazel/src/Hazel/Application.h
-Core.h
-../Hazel/src/Hazel/Core.h
-Events/Event.h
-../Hazel/src/Hazel/Events/Event.h
+Hazel/AbstractWindow.h
+../Hazel/src/Hazel/Hazel/AbstractWindow.h
 
 ../Hazel/src/Hazel/Core.h
 
@@ -29,12 +35,38 @@ Hazel/Core.h
 ../Hazel/src/Hazel/Events/Hazel/Core.h
 
 ../Hazel/src/Hazel/Log.h
-Core.h
-../Hazel/src/Hazel/Core.h
+Hazel/Core.h
+../Hazel/src/Hazel/Hazel/Core.h
 spdlog/spdlog.h
-../Hazel/src/Hazel/spdlog/spdlog.h
+-
 spdlog/fmt/ostr.h
-../Hazel/src/Hazel/spdlog/fmt/ostr.h
+-
+
+../Hazel/src/hzpch.h
+iostream
+-
+memory
+-
+utility
+-
+algorithm
+-
+functional
+-
+string
+-
+sstream
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+Hazel/Log.h
+../Hazel/src/Hazel/Log.h
+Windows.h
+-
 
 ../Hazel/vendor/spdlog/include/spdlog/cfg/log_levels.h
 spdlog/common.h
@@ -572,6 +604,14 @@ spdlog-inl.h
 
 ../Hazel/vendor/spdlog/include/spdlog/version.h
 
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
+Hazel/Core.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Hazel/Core.h
+spdlog/spdlog.h
+-
+spdlog/fmt/ostr.h
+-
+
 /Users/josevargas/dev/hazel-project/SandBox/src/SandBoxApp.cpp
 Hazel.h
 -
@@ -596,6 +636,8 @@ vector
 unordered_set
 -
 unordered_map
+-
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
 -
 
 /Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx

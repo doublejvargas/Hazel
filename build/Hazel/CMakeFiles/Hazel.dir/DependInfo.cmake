@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
   "/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
   "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
+  "/Users/josevargas/dev/hazel-project/Hazel/src/Platform/Windows/WindowsWindow.cpp" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o"
+  "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx" "/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -24,10 +26,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Hazel/src"
   "../Hazel/vendor/spdlog/include"
+  "../Hazel/vendor/GLFW/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/josevargas/dev/hazel-project/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

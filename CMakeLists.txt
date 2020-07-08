@@ -15,4 +15,3 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build/bin/${CMAKE_BUILD_T
 
 add_subdirectory(Hazel)
 add_subdirectory(SandBox)
-

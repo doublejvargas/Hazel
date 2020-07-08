@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hazel.dir/cmake_pch.hxx.pch"
   "CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
   "CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
+  "CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

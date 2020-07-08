@@ -1,14 +1,12 @@
 //#include "hzpch.h"        // Needs not be included because cmake automatically does this.
 #include "Application.h"
 
-#include "Events/ApplicationEvent.h"
-#include "Log.h"
 
 namespace Hazel
 {
     Application::Application()
     {
-
+        m_Window = std::unique_ptr<AbstractWindow>(AbstractWindow::Create());
     }
 
     Application::~Application()
@@ -18,9 +16,9 @@ namespace Hazel
 
     void Application::Run()
     {
-        WindowResizeEvent e(1200, 720);
-        HZ_TRACE(e);
-
-        while(true);
+        while(m_Running)
+        {
+            m_Window->OnUpdate();
+        }
     }
 }

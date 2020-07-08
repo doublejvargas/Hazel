@@ -1,6 +1,6 @@
 //#include "hzpch.h"        // Needs not be included because cmake automatically does this.
 #include "Log.h"
-#include <spdlog/sinks/stdout_color_sinks.h>
+#include "spdlog/sinks/stdout_color_sinks.h"
 
 namespace Hazel
 {
@@ -16,6 +16,5 @@ namespace Hazel
         s_ClientLogger = spdlog::stdout_color_mt("APP");
         s_ClientLogger->set_level(spdlog::level::trace);
     }
-
 
 }
