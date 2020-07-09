@@ -11,12 +11,12 @@ namespace Hazel
             : m_MouseX(x), m_MouseY(y) {}
 
         inline float GetX() const { return m_MouseX; }
-        inline float GetY() const {return m_MouseY; }
+        inline float GetY() const { return m_MouseY; }
 
         std::string ToString() const override
         {
             std::stringstream ss;
-            ss << "MouseMovedEvent: " << m_MouseX << ", " << m_MouseY;
+            ss << "MouseMovedEvent: " << (int) m_MouseX << ", " << (int) m_MouseY;
             return ss.str();
         }
 

@@ -50,6 +50,7 @@ Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch: Hazel/CMakeFiles/Hazel.dir/cmake_p
 
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/AbstractWindow.h
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Core.h
+Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Events/Event.h
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/Hazel/Log.h
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o: ../Hazel/src/hzpch.h
@@ -151,7 +152,10 @@ Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o: Hazel/CMakeFiles/Hazel.dir/cmake
 
 Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/src/Hazel/AbstractWindow.h
 Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/src/Hazel/Core.h
+Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
 Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/src/Hazel/Events/Event.h
+Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/src/Hazel/Events/KeyEvent.h
+Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/src/Hazel/Events/MouseEvent.h
 Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/src/Hazel/Log.h
 Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/src/hzpch.h
 Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o: ../Hazel/vendor/GLFW/include/GLFW/glfw3.h

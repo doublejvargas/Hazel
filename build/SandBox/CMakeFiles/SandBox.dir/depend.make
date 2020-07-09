@@ -53,6 +53,7 @@ SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../Hazel/src/Hazel/Abstract
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../Hazel/src/Hazel/Application.h
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../Hazel/src/Hazel/Core.h
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../Hazel/src/Hazel/EntryPoint.h
+SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../Hazel/src/Hazel/Events/Event.h
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../Hazel/src/Hazel/Log.h
 SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o: ../Hazel/src/hzpch.h

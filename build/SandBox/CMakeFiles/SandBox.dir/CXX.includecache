@@ -23,12 +23,18 @@ Hazel/Events/Event.h
 ../Hazel/src/Hazel/Hazel/Events/Event.h
 
 ../Hazel/src/Hazel/Application.h
+Hazel/Events/ApplicationEvent.h
+../Hazel/src/Hazel/Hazel/Events/ApplicationEvent.h
 Hazel/AbstractWindow.h
 ../Hazel/src/Hazel/Hazel/AbstractWindow.h
 
 ../Hazel/src/Hazel/Core.h
 
 ../Hazel/src/Hazel/EntryPoint.h
+
+../Hazel/src/Hazel/Events/ApplicationEvent.h
+Event.h
+../Hazel/src/Hazel/Events/Event.h
 
 ../Hazel/src/Hazel/Events/Event.h
 Hazel/Core.h
@@ -639,6 +645,4 @@ unordered_map
 -
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
 -
-
-/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx
 

@@ -51,6 +51,7 @@ Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch
 Hazel/CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o
  ../Hazel/src/Hazel/AbstractWindow.h
  ../Hazel/src/Hazel/Core.h
+ ../Hazel/src/Hazel/Events/ApplicationEvent.h
  ../Hazel/src/Hazel/Events/Event.h
  ../Hazel/src/Hazel/Log.h
  ../Hazel/src/hzpch.h
@@ -152,7 +153,10 @@ Hazel/CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o
 Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o
  ../Hazel/src/Hazel/AbstractWindow.h
  ../Hazel/src/Hazel/Core.h
+ ../Hazel/src/Hazel/Events/ApplicationEvent.h
  ../Hazel/src/Hazel/Events/Event.h
+ ../Hazel/src/Hazel/Events/KeyEvent.h
+ ../Hazel/src/Hazel/Events/MouseEvent.h
  ../Hazel/src/Hazel/Log.h
  ../Hazel/src/hzpch.h
  ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
