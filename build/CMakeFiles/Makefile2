@@ -172,12 +172,12 @@ SandBox/clean: SandBox/CMakeFiles/SandBox.dir/clean
 Hazel/CMakeFiles/Hazel.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/depend
 	$(MAKE) $(MAKESILENT) -f Hazel/CMakeFiles/Hazel.dir/build.make Hazel/CMakeFiles/Hazel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Hazel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Hazel"
 .PHONY : Hazel/CMakeFiles/Hazel.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/CMakeFiles/Hazel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josevargas/dev/hazel-project/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josevargas/dev/hazel-project/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hazel/CMakeFiles/Hazel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josevargas/dev/hazel-project/build/CMakeFiles 0
 .PHONY : Hazel/CMakeFiles/Hazel.dir/rule
@@ -226,7 +226,7 @@ Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/clean:
 Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target glfw"
 .PHONY : Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -254,12 +254,12 @@ SandBox/CMakeFiles/SandBox.dir/all: Hazel/CMakeFiles/Hazel.dir/all
 SandBox/CMakeFiles/SandBox.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/depend
 	$(MAKE) $(MAKESILENT) -f SandBox/CMakeFiles/SandBox.dir/build.make SandBox/CMakeFiles/SandBox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=6,7,8 "Built target SandBox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/josevargas/dev/hazel-project/build/CMakeFiles --progress-num=8,9,10 "Built target SandBox"
 .PHONY : SandBox/CMakeFiles/SandBox.dir/all
 
 # Build rule for subdir invocation for target.
 SandBox/CMakeFiles/SandBox.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josevargas/dev/hazel-project/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josevargas/dev/hazel-project/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SandBox/CMakeFiles/SandBox.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josevargas/dev/hazel-project/build/CMakeFiles 0
 .PHONY : SandBox/CMakeFiles/SandBox.dir/rule

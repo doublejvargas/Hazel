@@ -2,6 +2,8 @@
 
 //#include "hzpch.h"
 
+
+#include "Hazel/LayerStack.h"
 #include "Hazel/Events/ApplicationEvent.h"
 //#include "Core.h"
 //#include "Events/Event.h"
@@ -20,11 +22,15 @@ namespace Hazel
 
         void OnEvent(Event& e);
 
+        void PushLayer(Layer* layer);
+        void PushOverlay(Layer* overlay);
+
     private:
         bool OnWindowClose(WindowCloseEvent& e);
 
         std::unique_ptr<AbstractWindow>m_Window;
         bool m_Running = true;
+        LayerStack m_LayerStack;
     };
 
     Application* CreateApplication();

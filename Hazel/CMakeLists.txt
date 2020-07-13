@@ -6,7 +6,7 @@ add_library(
         src/Hazel/Events/MouseEvent.h src/Hazel/Events/ApplicationEvent.h
         src/Hazel/AbstractWindow.h src/Platform/Windows/WindowsWindow.h
         src/Platform/Windows/WindowsWindow.cpp
-        )
+        src/Hazel/Layer.h src/Hazel/LayerStack.h src/Hazel/Layer.cpp src/Hazel/LayerStack.cpp)
 
 #------Pre-compiled headers-------------------------------------------------
 target_precompile_headers(Hazel

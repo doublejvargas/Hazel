@@ -236,6 +236,18 @@
 		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Events/MouseEvent.h">
 			<Option target="Hazel"/>
 		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Layer.cpp">
+			<Option target="Hazel"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Layer.h">
+			<Option target="Hazel"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/LayerStack.cpp">
+			<Option target="Hazel"/>
+		</Unit>
+		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/LayerStack.h">
+			<Option target="Hazel"/>
+		</Unit>
 		<Unit filename="/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.cpp">
 			<Option target="Hazel"/>
 		</Unit>

@@ -56,6 +56,8 @@ SandBox/CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o
  ../Hazel/src/Hazel/EntryPoint.h
  ../Hazel/src/Hazel/Events/ApplicationEvent.h
  ../Hazel/src/Hazel/Events/Event.h
+ ../Hazel/src/Hazel/Layer.h
+ ../Hazel/src/Hazel/LayerStack.h
  ../Hazel/src/Hazel/Log.h
  ../Hazel/src/hzpch.h
  ../Hazel/vendor/spdlog/include/spdlog/cfg/log_levels.h

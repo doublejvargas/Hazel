@@ -6,6 +6,7 @@
  *  so this is a header that provides them access to what is defined in those files. */
 
 #include "Hazel/Application.h"
+#include "Hazel/Layer.h"
 #include "Hazel/Log.h"
 
 

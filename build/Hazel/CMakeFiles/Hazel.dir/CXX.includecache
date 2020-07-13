@@ -24,6 +24,20 @@ Event.h
 Hazel/Core.h
 ../Hazel/src/Hazel/Events/Hazel/Core.h
 
+../Hazel/src/Hazel/Layer.h
+Hazel/Core.h
+../Hazel/src/Hazel/Hazel/Core.h
+Hazel/Events/Event.h
+../Hazel/src/Hazel/Hazel/Events/Event.h
+
+../Hazel/src/Hazel/LayerStack.h
+Hazel/Core.h
+../Hazel/src/Hazel/Hazel/Core.h
+Hazel/Layer.h
+../Hazel/src/Hazel/Hazel/Layer.h
+vector
+-
+
 ../Hazel/src/Hazel/Log.h
 Hazel/Core.h
 ../Hazel/src/Hazel/Hazel/Core.h
@@ -599,6 +613,8 @@ Application.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.h
 
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Application.h
+Hazel/LayerStack.h
+/Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Hazel/LayerStack.h
 Hazel/Events/ApplicationEvent.h
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Hazel/Events/ApplicationEvent.h
 Hazel/AbstractWindow.h

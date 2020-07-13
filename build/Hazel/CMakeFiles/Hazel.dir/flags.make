@@ -16,3 +16,7 @@ CXX_INCLUDES = -I/Users/josevargas/dev/hazel-project/Hazel/src -I/Users/josevarg
 
 # PCH options: Hazel/CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o_OPTIONS = -Xclang;-include-pch;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
 
+# PCH options: Hazel/CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o_OPTIONS = -Xclang;-include-pch;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+
+# PCH options: Hazel/CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o_OPTIONS = -Xclang;-include-pch;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/josevargas/dev/hazel-project/build/Hazel/CMakeFiles/Hazel.dir/cmake_pch.hxx
+

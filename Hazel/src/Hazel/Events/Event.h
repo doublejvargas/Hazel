@@ -42,8 +42,10 @@ namespace Hazel
     class HAZEL_API Event
     {
         // Declared as a friend here to grant access to the protected "m_Handled" member.
-        friend class EventDispatcher;
+        /*friend class EventDispatcher;*/
     public:
+        bool Handled = false;
+
         virtual EventType GetEventType() const = 0;
         virtual const char* GetName() const = 0;
         virtual int GetCategoryFlags() const = 0;
@@ -53,8 +55,8 @@ namespace Hazel
         {
             return GetCategoryFlags() & category;
         }
-    protected:
-        bool m_Handled = false;
+    /*protected:
+        bool m_Handled = false;*/
 
     };
 
@@ -81,7 +83,7 @@ namespace Hazel
                 // 3. Dereferences that T pointer (to get an object of type T which is passed as a reference to "func" call)
                 // 4. Evaluates function func with the result of 1,2 and 3 as an argument.
                 // 5. Assigns the result of 4 to m.Handled. Note: this mutates the original Event object passed to EventDispatcher object.
-                m_Event.m_Handled = func(*(T*)&m_Event);
+                m_Event.Handled = func(*(T*)&m_Event);
                 return true;
             }
             return false;

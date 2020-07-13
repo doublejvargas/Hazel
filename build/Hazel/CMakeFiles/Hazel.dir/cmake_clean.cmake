@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../bin/Debug-Darwin-x64/libHazel.pdb"
   "CMakeFiles/Hazel.dir/cmake_pch.hxx.pch"
   "CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
+  "CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o"
+  "CMakeFiles/Hazel.dir/src/Hazel/LayerStack.cpp.o"
   "CMakeFiles/Hazel.dir/src/Hazel/Log.cpp.o"
   "CMakeFiles/Hazel.dir/src/Platform/Windows/WindowsWindow.cpp.o"
 )

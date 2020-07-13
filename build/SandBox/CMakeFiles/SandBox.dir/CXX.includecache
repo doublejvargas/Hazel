@@ -9,6 +9,8 @@
 ../Hazel/src/Hazel.h
 Hazel/Application.h
 ../Hazel/src/Hazel/Application.h
+Hazel/Layer.h
+../Hazel/src/Hazel/Layer.h
 Hazel/Log.h
 ../Hazel/src/Hazel/Log.h
 Hazel/EntryPoint.h
@@ -23,6 +25,8 @@ Hazel/Events/Event.h
 ../Hazel/src/Hazel/Hazel/Events/Event.h
 
 ../Hazel/src/Hazel/Application.h
+Hazel/LayerStack.h
+../Hazel/src/Hazel/Hazel/LayerStack.h
 Hazel/Events/ApplicationEvent.h
 ../Hazel/src/Hazel/Hazel/Events/ApplicationEvent.h
 Hazel/AbstractWindow.h
@@ -39,6 +43,20 @@ Event.h
 ../Hazel/src/Hazel/Events/Event.h
 Hazel/Core.h
 ../Hazel/src/Hazel/Events/Hazel/Core.h
+
+../Hazel/src/Hazel/Layer.h
+Hazel/Core.h
+../Hazel/src/Hazel/Hazel/Core.h
+Hazel/Events/Event.h
+../Hazel/src/Hazel/Hazel/Events/Event.h
+
+../Hazel/src/Hazel/LayerStack.h
+Hazel/Core.h
+../Hazel/src/Hazel/Hazel/Core.h
+Hazel/Layer.h
+../Hazel/src/Hazel/Hazel/Layer.h
+vector
+-
 
 ../Hazel/src/Hazel/Log.h
 Hazel/Core.h
@@ -645,4 +663,6 @@ unordered_map
 -
 /Users/josevargas/dev/hazel-project/Hazel/src/Hazel/Log.h
 -
+
+/Users/josevargas/dev/hazel-project/build/SandBox/CMakeFiles/SandBox.dir/cmake_pch.hxx.cxx
 
