@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../bin/Debug-Darwin-x64/SandBox"
-  "../bin/Debug-Darwin-x64/SandBox.pdb"
+  "../bin/{configuration}-Darwin-x64/SandBox"
+  "../bin/{configuration}-Darwin-x64/SandBox.pdb"
   "CMakeFiles/SandBox.dir/cmake_pch.hxx.pch"
   "CMakeFiles/SandBox.dir/src/SandBoxApp.cpp.o"
 )

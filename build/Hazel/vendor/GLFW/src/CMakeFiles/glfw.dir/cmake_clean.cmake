@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../bin/Debug-Darwin-x64/libglfw3.a"
-  "../../../../bin/Debug-Darwin-x64/libglfw3.pdb"
+  "../../../../bin/{configuration}-Darwin-x64/libglfw3.a"
+  "../../../../bin/{configuration}-Darwin-x64/libglfw3.pdb"
   "CMakeFiles/glfw.dir/cocoa_init.m.o"
   "CMakeFiles/glfw.dir/cocoa_joystick.m.o"
   "CMakeFiles/glfw.dir/cocoa_monitor.m.o"

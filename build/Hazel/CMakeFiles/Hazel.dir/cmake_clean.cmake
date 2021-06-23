@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../bin/Debug-Darwin-x64/libHazel.dylib"
-  "../bin/Debug-Darwin-x64/libHazel.pdb"
+  "../bin/{configuration}-Darwin-x64/libHazel.dylib"
+  "../bin/{configuration}-Darwin-x64/libHazel.pdb"
   "CMakeFiles/Hazel.dir/cmake_pch.hxx.pch"
   "CMakeFiles/Hazel.dir/src/Hazel/Application.cpp.o"
   "CMakeFiles/Hazel.dir/src/Hazel/Layer.cpp.o"
