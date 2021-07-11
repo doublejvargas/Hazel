@@ -13,10 +13,10 @@ To run script, simply execute the below command in the terminal from the directo
 cmake -DACTIVE_CONFIG={configuration} -P script.cmake
 ```
 
-where {configuration} can be one of the three values {Debug, Release, MinSizeRel}.
+where {configuration} can be one of the three values: Debug, Release, MinSizeRel
 
 
-References
+##References
 [1] Youtube Playlist guide: https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT.
 
 [2] Original Github Repository: https://github.com/TheCherno/Hazel
